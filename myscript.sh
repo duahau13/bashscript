@@ -1,3 +1,7 @@
 #!/bin/bash
 
-echo "This is a bash script"
+for file in logfiles/*.log
+do
+    tar -czvf $file.tar.gz $file
+    sleep 1
+done

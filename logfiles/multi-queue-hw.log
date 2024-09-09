@@ -1,0 +1,11 @@
+Info: start multi queue config at Mon Sep  9 11:44:01 AM +07 2024
+Info: find eth*: /sys/class/net/eth0 
+Info: eth0 maximum combined is 1, current combined is 1
+Info: eth0 set 1 to /sys/class/net/eth0/queues/tx-0/xps_cpus
+Info: eth0 set 1 to /sys/class/net/eth0/queues/rx-0/rps_cpus
+Info: eth0 set 4096 to /sys/class/net/eth0/queues/rx-0/rps_flow_cnt
+Info: total queue num is 1
+Info: total flow entries is 4096
+Info: current flow entries is 4096
+Info: 1 cpu no need to start irqbalance
+Info: multi queue config finished at Mon Sep  9 11:44:01 AM +07 2024
