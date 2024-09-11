@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "This is a bash script"
+echo "This is a case script"
