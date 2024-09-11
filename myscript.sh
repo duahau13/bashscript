@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "This is a bash script"
+echo "Please enter your name:"
+read name
+echo "Hello $name. Welcome to Bash script!"
