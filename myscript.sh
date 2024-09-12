@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "This is a bash script"
+logfile=job_results.log
+
+echo "The script ran at the following time: $(date)" > $logfile
